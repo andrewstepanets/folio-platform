@@ -1,0 +1,8 @@
+// Prisma schema — models arrive with the Auth slice (issue #6)
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
